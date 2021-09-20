@@ -4,12 +4,302 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Travel</title>
   <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+
+  <!-- HEADER -->
+
+  <header id="header">
+    <div class="container">
+      <div class="">
+        <div class="header-site row align-center between">
+          <a class="logo" href="#"></a>
+          <nav class="navbar">
+            <ul class="nav-list row">
+              <li class="nav-item"><a class="nav-link" href="#">Destination</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Offer</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            </ul>
+          </nav>
+          <div class="acount-sec align-center row">
+            <button class="account-btn row align-center">My Account</button>
+            <button class="search-btn"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+
+  <main id="main">
+    <div class="container">
+      <div class="row">
+        <div class="hero">
+          <div class="hero-des">
+            <h2 class="hero-title">It’s Time To Explore The World</h2>
+            <a class="hero-btn" href="#">Plan Your Trip</a>
+          </div>
+          <div class="hero-input-sec row between">
+            <div class="hero-nav row align-center">
+              <button class="hero-btn-left"><img src="img/arrow-left.png" alt="arrow-left" width="9" height="15"></button>
+              <button class="hero-btn-right"><img src="img/arrow-right.png" alt="arrow-left" width="9" height="15"></button>
+              <span class="hero-line"></span>
+              <p class="hero-number">03</p>
+            </div>
+            <div class="input-window">
+              <form class="form row align-center between" action="https://echo.htmlacademy.ru/" method="POST">
+                <div class="country-input">
+                  <p class="form-text">Destinations</p>
+                  <select name="country" id="country">
+                    <option value="Arab Egypt">Arab Egypt</option>
+                  </select>
+                </div>
+                <div class="date-input">
+                  <p class="form-text">Check In</p>
+                  <input type="date" id="date" name="date">
+                </div>
+                <div class="price-input">
+                  <p class="form-text">Price Range</p>
+                  <input type="text" id="price" name="price" placeholder="$500-$10,000"><span class="input-dollar">$</span>
+                </div>
+                <button class="submit-btn" type="submit">Discover Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD -->
+
+      <div class="card">
+        <ul class="card-list row align-center center">
+          <li class="card-item align-center center">
+            <img src="img/map.png" alt="card-img" width="128" height="128">
+            <h3 class="card-title">Choose Destination</h3>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing setting</p>
+          </li>
+          <li class="card-item">
+            <img src="img/binocular.png" alt="card-img" width="100" height="100">
+            <h3 class="card-title">Explore The Place</h3>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing setting</p>
+          </li>
+          <li class="card-item">
+            <img src="img/backpack.png" alt="card-img" width="100" height="100">
+            <h3 class="card-title">Start Your Journey</h3>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing setting</p>
+          </li>
+          <li class="card-item">
+            <img src="img/guitar.png" alt="card-img" width="100" height="100">
+            <h3 class="card-title">Let’s Enjoy</h3>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing setting</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <div class="travel">
+    <div class="travel-img"></div>
+    <div class="container">
+      <div class="row align-center">
+        <div class="travel-des">
+          <h2 class="travel-title">Top <span class="travel-title-red">Destinations </span>In The World</h2>
+          <p class="travel-text">It is a long established fact that a reader will be the distracted by the readable content of a page when looking at its layout from it.</p>
+          <a class="general-btn" href="#">Discover Now</a>
+        </div>
+        <img class="travel-left" src="img/travel-left.png" alt="travel" width="334" height="400">
+        <img class="travel-center" src="img/travel-center.png" alt="travel" width="330" height="400">
+        <img class="travel-right" src="img/travel-right.png" alt="travel" width="316" height="400">
+      </div>
+    </div>
+  </div>
+
+  <div class="total">
+    <div class="container">
+      <div class="row align-center">
+        <div class="total-img-sec">
+          <div class="travel-gib-img"></div>
+          <div class="circle-img"></div>
+          <div class="pattern-img"></div>
+          <div class="cubic cubic-2"></div>
+        </div>
+        <div class="total-des">
+          <h2 class="total-title">We Offering In Total 793 Tours Out The World</h2>
+          <h2 class="total-small-title total-user row align-center"> Best Travel Guide Always For Your Services</h2>
+          <p class="total-small-text">Travel has helped us to understandsa the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes. Travel has helped us to understand the meaning of life</p>
+          <h2 class="total-small-title total-earth total-line row align-center">World Class Services Provide For You</h2>
+          <h2 class="total-small-title total-speaker row align-center">24/7 Strong Customer Support</h2>
+        </div>
+      </div>
+      <div class="choose center">
+        <h2 class="choose-title">Choose Your Destination</h2>
+        <img class="green-circle" src="img/green-circle.png" alt="green-circle">
+        <ul class="choose-img-list row center">
+          <li class="choose-item">
+            <img class="triagle-img" src="img/triagle.png" alt="travel" width="169" height="169">
+          </li>
+          <li class="choose-item">
+            <img src="img/image-2.png" alt="travel" width="450" height="535">
+            <div class="choose-card row between align-center">
+              <div class="choose-card-des">
+                <h3 class="choose-card-title">Santorini, Oia Grecee</h3>
+                <div class="choose-card-price row align-center between">
+                  <p class="choose-red">$2000</p>
+                  <ul class="star-list row">
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                  </ul>
+                  <p class="choose-card-text">5k Reviews</p>
+                </div>
+              </div>
+              <a class="add-btn" href="#">+</a>
+            </div>
+          </li>
+          <li class="choose-item">
+            <img class="pink-circle-img" src="img/pink-circle.png" alt="travel" width="148" height="169">
+          </li>
+          <li class="choose-item">
+            <img src="img/image.png" alt="travel" width="450" height="535">
+            <div class="choose-card row between align-center">
+              <div class="choose-card-des">
+                <h3 class="choose-card-title">Santorini, Oia Grecee</h3>
+                <div class="choose-card-price row align-center between">
+                  <p class="choose-red">$2000</p>
+                  <ul class="star-list row">
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                  </ul>
+                  <p class="choose-card-text">5k Reviews</p>
+                </div>
+              </div>
+              <a class="add-btn" href="#">+</a>
+            </div>
+          </li>
+          <li class="choose-item">
+            <a class="general-btn" href="#">View All Places</a>
+          </li>
+          <li class="choose-item">
+            <img src="img/image-3.png" alt="travel" width="450" height="535">
+            <div class="choose-card row between align-center">
+              <div class="choose-card-des">
+                <h3 class="choose-card-title">Santorini, Oia Grecee</h3>
+                <div class="choose-card-price row align-center between">
+                  <p class="choose-red">$2000</p>
+                  <ul class="star-list row">
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                    <li class="star-item"><img src="img/star.png" alt="star" width="13" height="13"></li>
+                  </ul>
+                  <p class="choose-card-text">5k Reviews</p>
+                </div>
+              </div>
+              <a class="add-btn" href="#">+</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="costumer center">
+        <img class="blue-circle" src="img/blue-circle.png" alt="blue-circle">
+        <img class="images-5" src="img/image-5.png" alt="img-5">
+        <img class="images-6" src="img/image-6.png" alt="img-5">
+        <img class="images-7" src="img/image-7.png" alt="img-5">
+        <img class="images-8" src="img/image-8.png" alt="img-5">
+        <img class="images-9" src="img/image-9.png" alt="img-5">
+        <img class="images-10" src="img/image-10.png" alt="img-5">
+        <img class="images-11" src="img/image-11.png" alt="img-5">
+        <img class="pink-costumer" src="img/pink-costumer.png" alt="pink-costumer">
+        <h2 class="costumer-title">What Our Happy Customers Say About Us</h2>
+        <div class="costumer-card center">
+          <div class="costumer-des row center align-center">
+            <img class="costumer-hero-img" src="img/costumer.png" alt="costumer">
+            <div class="costumer-card-des">
+              <h3 class="costumer-small-title">Md Shamim Hossain</h3>
+              <p class="costumer-text">UI/UX Designer</p>
+            </div>
+          </div>
+          <p class="costumer-small-text">Jetrips Hotel is an excellent choice for anybody for considering hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment within which to operate. The hotel is meticulous in its planning.</p>
+          <ul class="swipe-list row center">
+            <li class="swipe-item">
+              <span class="swipe-item-circle"></span>
+            </li>
+            <li class="swipe-item">
+              <span class="swipe-item-circle"></span>
+            </li>
+            <li class="swipe-item">
+              <span class="swipe-item-circle"></span>
+            </li>
+            <li class="swipe-item">
+              <span class="swipe-item-circle"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <aside class="aside">
+        <div class="aside-title">Download Now Travel Community Apps</div>
+        <div class="aside-ads row">
+          <a href="#">
+            <img class="google-play" src="img/google-play.png" alt="google-play" width="203" height="80">
+          </a>
+          <a href="#">
+            <img src="img/apple-store.png" alt="apple-store" width="203" height="80">
+          </a>
+        </div>
+        <img class="air-img" src="img/air-img.png" alt="air-img">
+      </aside>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-sec row">
+        <div class="footer-logo-sec">
+          <img src="img/logo.svg" alt="logo" width="231" height="61">
+          <p class="footer-text">You can dream, create, design, and buildsa the most wonderful place.</p>
+          <p class="footer-text footer-phone">+0123 456 987, +0123 456 987</p>
+          <p class="footer-text footer-email">yourmailaddress@gmail.com</p>
+          <p class="footer-text footer-map">www.yourwebsitename.com</p>
+        </div>
+        <ul class="quick-list">
+          <h3 class="quick-title">Quick Links</h3>
+          <li class="quick-item"><a class="quick-link" href="#">- About Us</a></li>
+          <li class="quick-item"><a class="quick-link" href="#">- Destinations</a></li>
+          <li class="quick-item"><a class="quick-link" href="#">- Latest Blog</a></li>
+          <li class="quick-item"><a class="quick-link" href="#">- Our Team</a></li>
+          <li class="quick-item"><a class="quick-link" href="#">- Contact Us</a></li>
+        </ul>
+        <ul class="quick-list">
+          <h3 class="quick-title">Support</h3>
+          <li class="quick-item"><a class="quick-link" href="#">- Costumer Support</a></li>
+          <li class="quick-item"><a class="quick-link" href="#">- Privacy & Policy</a></li>
+          <li class="quick-item"><a class="quick-link" href="#">- Terms & Condition</a></li>
+          <li class="quick-item"><a class="quick-link" href="#">- Forum</a></li>
+          <li class="quick-item"><a class="quick-link" href="#">- Tour Guid</a></li>
+        </ul>
+        <div class="footer-input-sec">
+          <h3 class="quick-title footer-new">Newsteller</h3>
+          <input class="footer-input" type="text"><br>
+          <a class="general-btn" href="#">Subscribe Now</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
