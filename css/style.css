@@ -1175,6 +1175,11 @@ button {
   font-size: 18px;
   line-height: 42px;
   color: #A79997;
+  transition: color 0.4s ease;
+}
+
+.quick-link:hover {
+  color: #ff715b;
 }
 
 .footer-input {
